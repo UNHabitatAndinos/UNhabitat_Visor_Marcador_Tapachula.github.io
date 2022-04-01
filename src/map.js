@@ -20,7 +20,7 @@ var esriAerialAttrib = 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, ' +
     'USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the' +
     ' GIS User Community';
 var esriAerial = new L.TileLayer(esriAerialUrl,
-    {maxZoom: 18, attribution: esriAerialAttrib}).addTo(map);
+    {maxZoom: 16, attribution: esriAerialAttrib}).addTo(map);
 
 
 var opens = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
